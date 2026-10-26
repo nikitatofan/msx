@@ -1,0 +1,53 @@
+{
+  "name": "Мой телевизор",
+  "version": "0.1.0",
+  "headline": "Добро пожаловать домой",
+  "extension": "ПЕРВЫЙ ЗАПУСК · 0.1",
+  "cache": false,
+  "pages": [
+    {
+      "items": [
+        {
+          "type": "space",
+          "layout": "0,0,12,1",
+          "text": "Твой экран. Стрелки — выбор, OK — открыть, Back — назад.",
+          "color": "msx-black-soft"
+        },
+        {
+          "id": "video",
+          "type": "default",
+          "layout": "0,1,4,4",
+          "color": "msx-blue",
+          "title": "Проверить видео",
+          "titleFooter": "6 секунд · H.264 + AAC",
+          "action": "video:https://nikitatofan.github.io/msx/test.mp4",
+          "focus": true
+        },
+        {
+          "id": "buttons",
+          "type": "default",
+          "layout": "4,1,4,4",
+          "color": "msx-black-soft",
+          "title": "Проверить кнопки",
+          "titleFooter": "Показать сообщение",
+          "action": "info:Кнопки работают. Это наше собственное меню."
+        },
+        {
+          "id": "settings",
+          "type": "default",
+          "layout": "8,1,4,4",
+          "color": "msx-black-soft",
+          "title": "Настройки",
+          "titleFooter": "Настройки Media Station X",
+          "action": "settings"
+        },
+        {
+          "type": "space",
+          "layout": "0,5,12,1",
+          "text": "Тестовый интерфейс внутри MSX. Системное меню LG не изменено.",
+          "color": "msx-black-soft"
+        }
+      ]
+    }
+  ]
+}
